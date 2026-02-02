@@ -28,6 +28,7 @@ El objetivo es facilitar el despliegue de un servicio de red crítico (DHCP) eli
 ├── scripts/
 │   └── dhcp_manager.sh  # Script maestro de gestión y automatización
 └── README.md            # Documentación del proyecto
+````
 
 ## ⚙️ Requisitos Previos
 
@@ -46,6 +47,7 @@ Ejecuta el script sin argumentos para entrar al modo visual:
 
 ```bash
 ./scripts/dhcp_manager.sh
+```
 
 Desde aquí podrás ver tu IP actual, instalar la imagen, arrancar el contenedor y ver logs.
 
