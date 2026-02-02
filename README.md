@@ -73,4 +73,5 @@ El script `dhcp_manager.sh` utiliza estructuras de control `case` para gestionar
 
 ---
 **Autor:** Adrián Alonso Ridao, Iván Guerrero Antona y Manuel Zamora del Cerro
+
 **Repositorio:** [https://github.com/manuzamora01/Script-DHCP]
