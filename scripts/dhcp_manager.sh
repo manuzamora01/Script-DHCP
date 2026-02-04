@@ -107,7 +107,18 @@ if [ $# -gt 0 ]; then
 fi
 
 # Si no hay argumentos, mostramos menú interactivo
-
+while true; do
+    mostrar_header
+    echo "MENÚ PRINCIPAL:"
+    echo "1. Instalación del servicio (Build)"
+    echo "2. Puesta en marcha (Run)"
+    echo "3. Parada (Stop)"
+    echo "4. Eliminación del servicio"
+    echo "5. Consultar logs"
+    echo "6. Editar configuración"
+    echo "0. Salir"
+    echo ""
+    read -p "Elige una opción: " opcion
 
     case $opcion in
         1) instalar_servicio ;;
