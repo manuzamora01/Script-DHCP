@@ -11,3 +11,7 @@ RUN apt-get update && \
 # Copiamos la configuración. 
 # NOTA: Asumimos que el build context es la raíz del proyecto
 COPY config/dhcpd.conf /etc/dhcp/dhcpd.conf
+
+
+# El archivo de leases es necesario para que arranque
+RUN touch /var/lib/dhcp/dhcpd.leases
