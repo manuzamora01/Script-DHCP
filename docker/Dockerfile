@@ -7,3 +7,7 @@ RUN apt-get update && \
     apt-get install -y isc-dhcp-server net-tools iproute2 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
+
+# Copiamos la configuración. 
+# NOTA: Asumimos que el build context es la raíz del proyecto
+COPY config/dhcpd.conf /etc/dhcp/dhcpd.conf
