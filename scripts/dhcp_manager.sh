@@ -5,7 +5,6 @@ IMAGE_NAME="mi-dhcp-server"
 CONTAINER_NAME="dhcp-container"
 CONFIG_PATH="$(pwd)/config/dhcpd.conf"
 
-# --- FUNCIONES ---
 
 mostrar_header() {
     clear
